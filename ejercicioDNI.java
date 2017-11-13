@@ -28,12 +28,16 @@ public class ejercicioDNI {
 				nifNueva = nif.replaceFirst("Z", "2");
 		
 			
-				System.out.println(nifNueva);
+				
 			}
-
+System.out.println(nifNueva);
 		}
 	
 	}
+
+/* Cuando arregles lo de reemplazar y quede todo en números: Pasar el string a int
+después el int NIF (numero)  /  23, el numero que salga MOD = loquesea, ese loquesea
+es el resto que usaremos para reemplazar por la letra del vector char*/
 
 
 
